@@ -3,7 +3,7 @@
 class Fruit {
 	String name;
 	
-	static Fruit fruit(String fruitName) {
+	static Fruit build(String fruitName) {
 		Fruit f = new Fruit();
 		f.name =fruitName;
 		return f;
